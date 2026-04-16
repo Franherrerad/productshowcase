@@ -1,8 +1,6 @@
 # 🛍️ Vue Product Showcase
 
-# 🛍️ Vue Product Showcase
-
-![Demo](C:\Users\p_ima\vue-product-showcase/demo.gif)
+![Demo](https://github.com/Franherrerad/productshowcase/blob/main/docs/demo.gif)
 
 
 > Proyecto final del **Módulo 7**: Desarrollo de Aplicaciones Front-End con Framework Vue
