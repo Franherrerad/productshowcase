@@ -14,6 +14,17 @@ describe("ProductCard.vue", () => {
     const wrapper = mount(ProductCard, {
       props: {
         product
+      },
+      global: {
+        stubs: {
+          "v-card": { template: "<div><slot /></div>" },
+          "v-img": { template: '<img :src="src" :alt="alt" />', props: ["src", "alt"] },
+          "v-card-title": { template: "<div><slot /></div>" },
+          "v-card-subtitle": { template: "<div><slot /></div>" },
+          "v-card-text": { template: "<div><slot /></div>" },
+          "v-card-actions": { template: "<div><slot /></div>" },
+          "v-btn": { template: "<button><slot /></button>" }
+        }
       }
     });
 
